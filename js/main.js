@@ -119,8 +119,9 @@
   /* ---------- Quote form ---------- */
   var form = document.getElementById('quote-form');
   var success = document.getElementById('form-success');
-  // TODO: replace this with the business email (or wire up to Formspree/CRM)
-  var BUSINESS_EMAIL = 'info@lonestarpropertyservices.com';
+  // Where quote requests are sent. Change this to a dedicated business inbox
+  // when you have one (an address in public JS can attract spam).
+  var BUSINESS_EMAIL = 'fabocampa@gmail.com';
 
   if (form) {
     var el = form.elements;
