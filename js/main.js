@@ -119,9 +119,8 @@
   /* ---------- Quote form ---------- */
   var form = document.getElementById('quote-form');
   var success = document.getElementById('form-success');
-  // Where quote requests are sent. Change this to a dedicated business inbox
-  // when you have one (an address in public JS can attract spam).
-  var BUSINESS_EMAIL = 'fabocampa@gmail.com';
+  // Where quote requests are sent.
+  var BUSINESS_EMAIL = 'lonestarservices.tx@yahoo.com';
 
   if (form) {
     var el = form.elements;

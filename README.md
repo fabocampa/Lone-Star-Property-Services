@@ -55,10 +55,9 @@ real testimonials (name + city) — ideally pulled from Google reviews.
 
 ### 4. Quote form delivery
 By default the **Get My Free Quote** form opens the visitor's email app addressed to a placeholder.
-It's currently set to `fabocampa@gmail.com`. Update it in **`js/main.js`** if you get a
-dedicated business inbox:
+It's currently set to `lonestarservices.tx@yahoo.com`. Update it in **`js/main.js`** if it changes:
 ```js
-var BUSINESS_EMAIL = 'fabocampa@gmail.com'; // ← your email
+var BUSINESS_EMAIL = 'lonestarservices.tx@yahoo.com'; // ← your email
 ```
 For a more seamless experience (no email app popup), connect the form to a free service like
 **[Formspree](https://formspree.io)** or **[Web3Forms](https://web3forms.com)** — see comments in `js/main.js`.
